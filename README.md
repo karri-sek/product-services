@@ -69,4 +69,11 @@ The below results are ordered based on the reduction rate (was-now)
             "priceLabel": "Was £89, now £55"
         }
     ]
-}
+    }
+
+
+### Approaches and Assumptions:
+    1. Followed TDD way of solving the problems step by step.
+    2. Assumed 0.00 as default value to the keys with empty strings a values.
+    3. Use BigDecimal as the type for the price values as they have decimal values, I feel BigDecimal is better then float.
+    
