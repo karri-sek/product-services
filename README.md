@@ -11,4 +11,4 @@ This project is developed as a spring boot maven Rest service. Exposed a *REST* 
 1) Run command `mvn clean install` from the project root folder.
 Above command should be successful and run all the *tests*, you should be able to see a message *BUILD SUCCESS*
 
-
+![Alt text](~/Desktop/buildSuccess.png?raw=true "Build Success")
