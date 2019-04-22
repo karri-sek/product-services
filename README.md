@@ -14,8 +14,8 @@ Above command should be successful and run all the *tests*, you should be able t
 ### Run the application and hit the GET endpoint through postman
 
     1: Install maven in your local machine.
-    2: Run this command from the project root folder ` mvn spring-boot:run`
-    3: Hit this endpoint `http://localhost:8080/products?labelType=ShowWasThenNow from post man.
+    2: Run this command from the project root folder mvn spring-boot:run
+    3: Hit this endpoint http://localhost:8080/products?labelType=ShowWasThenNow from post man.
 Note: query param is optional
 The below results are ordered based on the reduction rate (was-now)
 
