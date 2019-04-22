@@ -24,7 +24,8 @@ public class ColorMapUtil {
 		colorHexMap.put("Grey Marl", "HJF4HJK");
 		colorHexMap.put("Ice Grey Retro Spot", "04JD8K");
 		colorHexMap.put("Hibiscus", "94JKL0");
-		
+		colorHexMap.put("Navy", "000080");
+		colorHexMap.put("Mimosa Yellow", "F5F5CC");
 	}
 	
 	public static String getColorHexaCode(String color) {

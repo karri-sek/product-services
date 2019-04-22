@@ -49,12 +49,12 @@ The below results are ordered based on the reduction rate (was-now)
             "colorSwatches": [
                 {
                     "color": "Navy",
-                    "rgbColor": null,
+                    "rgbColor": 000080,
                     "skuId": "237334043"
                 },
                 {
                     "color": "Mimosa Yellow",
-                    "rgbColor": null,
+                    "rgbColor": F5F5CC,
                     "skuId": "237334029"
                 }
             ],
