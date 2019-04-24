@@ -77,3 +77,8 @@ The below results are ordered based on the reduction rate (was-now)
     2. Assumed 0.00 as default value to the keys with empty strings a values.
     3. Use BigDecimal as the type for the price values as they have decimal values, I feel BigDecimal is better then float.
     
+#### Note: 
+the api returns valid json objects but the key `now` on objects has `string` value and on some objects it has 
+`json object` example.
+`"now":"59.00"` on one JSON object 
+`"now":{"from":"55.00","to":"100.00"}` on one JSON object, this behaviour forced me to use `JSONNode` as type of this field.
